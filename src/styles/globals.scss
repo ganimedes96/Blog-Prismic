@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --gray-900: #121214;
+  --gray-700: #474747;
+  --bluecean: #103ed9;
+  --white:    #e7dfdf;
+
+}
+
+body{
+  background: var(--gray-900);
+}
+
+body,textarea,select,button{
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+p,strong,time{
+  color: var(--white)
+}
+a{
+  color: var(--white);
+  color: inherit;
+  text-decoration:none;
+  font-family: 'Inter',sans-serif;
+}
+h1{
+  color: var(--white)
+}
+
+h2,h3,h4{
+  color: rgb(133, 134, 141);
+}

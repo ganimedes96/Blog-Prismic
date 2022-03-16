@@ -1,0 +1,100 @@
+
+
+    .posts{
+      margin-bottom: 3rem;
+
+      h1{
+      margin-bottom: .8rem;
+
+      }
+      .description{
+        display: flex;
+        margin-top: 1.2rem;
+        gap: 1rem;
+        h4{
+          font-weight: 600;
+          font-size:15px
+        }
+        .icon{
+          color: rgb(133, 134, 141);
+        }
+      }
+    }
+
+
+    .post {
+      a {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 3rem;
+        strong {
+          display: block;
+          font-size: 1.641rem;
+          color: var(--heading);
+          font-weight: 700;
+          margin-bottom: 1rem;
+
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: var(--highlight);
+          }
+        }
+
+        span {
+          color: var(--body);
+          font-weight:400;
+          display: block;
+          margin-bottom: 1rem;
+        }
+
+        ul {
+          display: flex;
+          align-items: center;
+
+          li {
+            color: var(--info);
+            text-decoration: none;
+            list-style: none;
+          }
+
+          svg {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .userIcon {
+      margin-left: 0.5rem
+    }
+
+    .buttonLoadMorePosts {
+      background: none;
+      color: var(--highlight);
+      font-weight: 600;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .buttonExitPreview {
+      max-width: 1120px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 1rem;
+      height: 44px;
+      background-color: var(--heading);
+      color: #000;
+      border-radius: 6px;
+      align-items: center;
+      text-decoration: none;
+
+      margin-top: 2rem;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
